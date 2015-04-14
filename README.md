@@ -31,8 +31,8 @@ To use the pre-CI workflow,
 5. Choose the following -
     * Build image : Custom Image
     * Custom image action : Build
-    * Custom image name : <docker hub username>/<image name>
-    * Source code path : <source code path for image you want to build>
+    * Custom image name : (docker hub username)/(image name)
+    * Source code path : (source code path for image you want to build)
     * Push to Docker Hub : Check
 6. Make sure the Dockerfile for the image you want to build is at the root of your repo
 7. Trigger a manual or webhook build
@@ -47,8 +47,8 @@ To use the post-CI workflow,
 5. Choose the following -
     * Build image : Custom Image
     * Custom image action : Build
-    * Custom image name : <docker hub username>/<image name>
-    * Source code path : <source code path for image you want to build>
+    * Custom image name : (docker hub username)/(image name)
+    * Source code path : (source code path for image you want to build)
     * Docker build when finished : Check
     * Image to pull: Specify image you want to run tests on, default is shippable/minv2
     * Push to Docker Hub : Check
